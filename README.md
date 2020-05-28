@@ -5,7 +5,9 @@ The program takes a file containing a list of Tetriminos as parameter and prints
 ## Compiling
 Run ```make```, an executable called ```fillit``` should compile directly. Please submit an issue if you run into any.
 
+<img src="images/Tetriminos.png" width="400">
 ## Tetriminos
+![](images/Tetriminos.png)
 A Tetrimino is a 4-blocks geometric figure you probably already heard of, thanks to the popular game Tetris. The map ```tetriminos``` contains three example files with Tetriminos.
 
 ## How to use?
