@@ -6,7 +6,7 @@
 #    By: bwaarle <marvin@codam.nl>                    +#+                      #
 #                                                    +#+                       #
 #    Created: 2018/10/08 09:53:27 by bwaarle       #+#    #+#                  #
-#    Updated: 2018/10/08 11:01:37 by bwaarle       ########   odam.nl          #
+#    Updated: 2020/05/28 16:26:47 by nstabel       ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ FLAGS = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME):
-	gcc $(FLAGS) -c $(SRCS) -I $(HEADER)
+	gcc $(FLAGS) -c $(SRCS) $(HEADER)
 	ar rc $(NAME) $(OBJS)
 
 clean:
