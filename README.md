@@ -5,7 +5,11 @@ The program takes a file containing a list of Tetriminos as parameter and prints
 ## Compiling
 Run ```make```, an executable called ```fillit``` should compile directly. Please submit an issue if you run into any.
 
-## How to use?
-After creating the executable file, ```fillit``` can be executed by giving it a tetrimino-file as parameter e.g.:
+## Tetriminos
+A Tetrimino is a 4-blocks geometric figure you probably already heard of, thanks to the popular game Tetris. The map ```tetriminos``` contains three example files with Tetriminos.
 
-```./fillit /tetriminos/list1```
+## How to use?
+After creating the executable file, ```fillit``` can be executed by giving it a Tetrimino-file as parameter e.g.:
+
+```./fillit tetriminos/list1```
+
