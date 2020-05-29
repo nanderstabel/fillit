@@ -33,3 +33,14 @@ After creating the executable file, ```fillit``` can be executed by giving it a 
 
 ```./fillit tetriminos/list1```
 
+In this case, the output looks like shown below. Note that to differentiate the Tetriminos, all of them are assigned a uppercase letter starting with 'A'.
+
+```
+.AAA
+BBBA
+.B..
+CCCC
+```
+
+## Specifications
+Apart from finding the smallest possible square to fit all Tetriminos, another requirement is that the algorithm must place all Tetriminos as far as possible in the top-left corner. Tetriminos at the beginning of the given list have precedence over the Tetriminos that come later in the list.
