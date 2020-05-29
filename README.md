@@ -48,4 +48,5 @@ Apart from finding the smallest possible square to fit all Tetriminos, another r
 Fillit is a project that introduces the concepts of **recursion** and **time complexity**, which are important concepts in computer science. The method used in this project is a **Brute Force Algorithm** with some optimization techniques. Bruteforcing basically means trying all possible configurations of Tetriminos until a solution is found. A great benefit of this method is that if there are one or more solutions, it will always find the best solution. A major drawback is that calculation time increases drastically as the amount of given Tetriminos increases.
 
 The gif below shows an example of how the algorithm finds a solution using recursion:
+
 <img src="images/example1.gif" width="100"></img>
