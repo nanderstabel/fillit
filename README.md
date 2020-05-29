@@ -44,3 +44,5 @@ CCCC
 
 ## Specifications
 Apart from finding the smallest possible square to fit all Tetriminos, another requirement is that the algorithm must place all Tetriminos as far as possible in the top-left corner. Tetriminos at the beginning of the given list have precedence over the Tetriminos that come later in the list.
+
+Fillit is a project that introduces the concepts of **recursion** and **time complexity**, which are important concepts in computer algorithms. 
