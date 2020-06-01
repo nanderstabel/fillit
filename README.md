@@ -57,6 +57,9 @@ It starts with placing the first Tetrimino 'A' in the upper-left corner. Since i
 
 Everytime the program tried all possible configurations of Tetrimino's it increases the grid-size with 1 and tries all over again until it finds a solution. This way of calculating is fine for a small amount of tetrimino's, but becomes problematic very fast when more Tetrimino's are added to the input list since this algorithm has a **factorial time complexity**. This means that a random list of twenty Tetrimino's can have around 2,432,902,008,176,640,000 (20!) permutations which is obviously a very big amount. However, in the scope of this project this algorithm is more than sufficiënt since it only needs to work for a small number of Tetrimino's.
 
+## Challange
+Allowed functions for the mandatory part are ```exit```, ```open```, ```close```, ```write```, ```read```, ```malloc``` and ```free```.
+
 ## Takeaways
 - A solid way of input input validation is very important to prevent your program to make unexpected errors when it is given invalid input.
 - During this project I learned about the concept of time complexity, and that it is important to know that different algorithms can have different time complexities. To choose the most suitable algorithm, it is important to think about what you want your program to accomplish. Do you want to make it work only for a small amount of information? Then bruteforcing is almost always a sufficiënt solution. However if your program needs to work fast for a lot of data, then you should probably look into more efficiënt algorithms.
