@@ -2,7 +2,7 @@
 Fillit is a [42-network](https://www.codam.nl/en/the-42-network) project which involves discovering and getting acquainted with a recurrent problem in programming: the search of an optimal solution among a very large number of possibilities in a reasonable amount of time. The purpose of this project is to take a file containing a list of tetriminos to sort them in the smallest square possible.
 The program takes a file containing a list of Tetrimino's as parameter and prints the square with tetriminos to the standard output.
 
-For more information about this project, see [fillit.en.pdf](https://github.com/nanderstabel/ft_ls/blob/master/fillit.en.pdf).
+For more information about this project, see [fillit.en.pdf](https://github.com/nanderstabel/fillit/blob/master/fillit.en.pdf).
 
 ## Compiling
 Run ```make```, an executable called ```fillit``` should compile directly. Please submit an issue if you run into any.
