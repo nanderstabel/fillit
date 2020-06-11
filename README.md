@@ -57,7 +57,7 @@ It starts with placing the first Tetrimino 'A' in the upper-left corner. Since i
 
 Everytime the program tried all possible configurations of Tetrimino's it increases the grid-size with 1 and tries all over again until it finds a solution. This way of calculating is fine for a small amount of tetrimino's, but becomes problematic very fast when more Tetrimino's are added to the input list since this algorithm has a **factorial time complexity**. This means that a random list of twenty Tetrimino's can have around 2,432,902,008,176,640,000 (20!) permutations which is obviously a very big amount. However, in the scope of this project this algorithm is more than sufficiënt since it only needs to work for a small number of Tetrimino's.
 
-## Challange
+## Challenge
 Allowed functions for the mandatory part are ```exit```, ```open```, ```close```, ```write```, ```read```, ```malloc``` and ```free```.
 
 ## Takeaways
